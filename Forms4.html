@@ -7,9 +7,23 @@
     <a style="font-size: 2vw">Logging in</a>
     <button style="margin-left: 13%;border-color: transparent">X</button>
     <hr width="30%" style="margin-left: -100px">
+    <style>
 
+        .container {
+            display: flex;
+            height: 100%;
+            width: 50%;
+            position: fixed;
+            z-index: 1;
+            overflow-x: hidden;
+            margin-outside: 20px;
+        }
+    </style>
 </head>
 <body>
+
+<div class="container">
+<div>
 <a style="font-size: 1vw;color: darkgrey">Surname</a> <br>
 <label>
     <input type="text">
@@ -29,13 +43,24 @@
 
 <a style="font-size: 0.8vw">The password has to be at least 6 symbols<br> long, contain both letters and digits</a><br>
 By registering you agree to the <a href="" style="font-size: 0.8vw">user agreement</a></a> <br>
+
 <label>
     <input type="submit" style="font-size: 1.5vw;margin-left: 2%; ">
 </label><br>
 <a href="" style="font-size: 0.8vw;margin-left: 10px">I have already got an account</a>
+</div>
+<div class="split right" style="">
+    <button style="margin-left:200px;background-color: deeppink;padding: 4px;border-radius: 40px;"><img height="30px"
+                                                                                                        width="30px"
+                                                                                                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/800px-Instagram_logo_2022.svg.png"></img><a
+            style="font-size: 1vw;margin: 20px">Instagram</a></button>
 
+    <button style="margin-left:200px;background-color: cornflowerblue;border-radius: 40px;padding: 4px;"><img
+            height="30px" width="30px"
+            src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg"></img><a
+            style="font-size: 1vw;margin: 20px">Facebook</a></button>
+</div>
 
-
-
+</div>
 </body>
 </html>
